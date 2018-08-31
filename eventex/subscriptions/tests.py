@@ -97,3 +97,5 @@ class SubscribeSuccessMessage(TestCase):
 
         response = self.client.post('/inscricao/',data, follow=True)
         self.assertContains(response,'Inscrição realizada com sucesso!')
+
+
